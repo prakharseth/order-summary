@@ -1,0 +1,129 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: hsl(225, 100%, 94%);
+        position: relative;
+        /* width: 100vw; */
+    }
+    
+    .bg-img {
+        position: absolute;
+        right: 0;
+        box-sizing: border-box;
+        width: 100vw;
+        z-index: -1;
+    }
+    
+    .bg-img img {
+        width: 100%;
+    }
+    
+    body {
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    body {
+        /* font-family: 'Outfit', sans-serif; */
+        font-family: 'Red Hat Display', sans-serif;
+        /* font-family: sans-serif; */
+    }
+    
+    .main {
+        margin-top: 100px;
+        /* width: ; */
+        background-color: #fff;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 450px;
+        padding: 0 2rem 0 2rem;
+    }
+    
+    .music-img {
+        overflow: hidden;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+        margin: 2rem;
+    }
+    
+    .heading {
+        font-weight: bold;
+        font-size: x-large;
+        color: hsl(223, 47%, 23%);
+    }
+    
+    .disc {
+        color: hsl(224, 23%, 55%);
+    }
+    
+    .plan {
+        padding: 15px;
+        display: flex;
+        background: hsl(225, 100%, 98%);
+        width: 100%;
+        justify-content: space-between;
+        border-radius: 10px;
+        align-items: center;
+    }
+    
+    .plan-left {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+    }
+    
+    .anul-plan {
+        font-weight: bold;
+    }
+    
+    .anul-price {
+        color: hsl(224, 23%, 55%);
+    }
+    
+    .change {
+        font-weight: b;
+    }
+    
+    .proceed {
+        font-weight: bold;
+        color: white;
+        background: blue;
+        padding: 10px 80px;
+        border-radius: 10px;
+        box-shadow: -4px 18px 23px -1px rgba(199, 198, 198, 0.75);
+    }
+    
+    .cancel {
+        color: hsl(224, 23%, 55%);
+        font-weight: bold;
+    }
+    
+    .change a:hover {
+        text-decoration: none;
+        opacity: 60%;
+    }
+    
+    .proceed:hover {
+        opacity: 60%;
+    }
+    
+    .cancel:hover {
+        color: hsl(223, 47%, 23%);
+        ;
+    }
